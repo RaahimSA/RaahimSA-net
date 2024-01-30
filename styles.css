@@ -84,25 +84,7 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    font-family: 'Abril Fatface', serif;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
     font-size: 20vh;
-}
-
-.Arduino {
-    background-color: #24252a;
-}
-
-.Arduino h1 {
-    font-size: 10vh;
-    font-family: 'Abril Fatface', serif;
-    color: #ffffff;
-    padding-left: 1.5vw;
-    padding-top: 1.5vw;
-}
-
-.ardText {
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    padding: 1.5vw;
-    padding-right: 60vh !important;
 }
