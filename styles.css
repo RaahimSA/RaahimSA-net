@@ -73,16 +73,25 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.header_img {
+.title {
     position: relative;
     text-align: center;
     overflow-x: hidden;
+
 }
 
 /* Title area */
 
-.title {
-    margin-top: 30vh;
+.title-img {
+    height: auto;
+    width: auto;
+}
+
+.title-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -90,5 +99,9 @@ button:hover {
 }
 
 .title-para {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'Merriweather', serif; 
 }
