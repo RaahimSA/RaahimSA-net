@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: #ffffff;
 }
 
+.center {
+    text-align: center;
+}
 /* Topnav */
 * {
     box-sizing: border-box;
@@ -11,73 +14,10 @@ body {
     padding: 0;
 }
 
-li, a, button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 3vh;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:0.25vh 10%;
-    background-color: #24252a;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.logo {
-    cursor: pointer;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4vh;
-}
-
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
-    display: inline-block;
-    padding: 0% 1.5vw;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-    color: #0088a9;
-}
-
-button {
-    padding: 1vw 2.1vw;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 5rem;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.cta {
-    margin: 1vw;
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
 .title {
     position: relative;
     text-align: center;
     overflow-x: hidden;
-
 }
 
 /* Title area */
@@ -104,4 +44,29 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Merriweather', serif; 
+}
+
+/* Generic row markup */
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin: 5vh 15vw;
+}
+
+.row .row-title {
+    font-family: 'Montserrat';
+    font-size: 45px;
+    text-align: left;
+}
+
+.row p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    flex-basis: auto;
+    white-space: pre;
 }
