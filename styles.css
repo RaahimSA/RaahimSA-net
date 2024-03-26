@@ -2,6 +2,14 @@
 
 body {
     background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 5vh;
+    text-align: center;
 }
 
 .center {
@@ -70,3 +78,11 @@ body {
     flex-basis: auto;
     white-space: pre;
 }
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+  
